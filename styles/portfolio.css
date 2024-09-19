@@ -1,0 +1,12 @@
+h1 {
+  color: blueviolet;
+  font-family: "Playfair Display";
+  font-weight: bold;
+}
+p {
+  font-family: "Playfair Display";
+  font-weight: bold;
+}
+.d-flex {
+  background-color: aqua;
+}
