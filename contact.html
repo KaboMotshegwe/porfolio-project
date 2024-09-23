@@ -54,47 +54,60 @@
         </li>
       </ul>
     </nav>
-    <div class="content-container container">
-      <div class="content">
-        <h1 class="mb-5">Let's get in touch</h1>
-        <div class="row">
-          <div class="col-md-6">
+    <div class="container">
+      <h1 class="mb-3">Let's get in touch!</h1>
+      <div class="row">
+        <div class="col-md-8">
+          <form
+            class="border p-4 rounded shadow-sm"
+            action="https://formspree.io/f/mwkalajy"
+            method="POST"
+          >
             <div class="mb-3">
-              <label class="form" for="">Your email:</label>
-              <input type="email" class="control" name="_replyto" />
+              <label for="email" class="form-label">Your email:</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Your email"
+                name="_replyto"
+                required=""
+              />
             </div>
-            <div>
-              <label class="form" for="">Your message:</label>
+            <div class="mb-3">
+              <label for="message" class="form-label">Your message:</label>
               <textarea
-                class="control"
-                name="message"
-                id=""
-                required
+                class="form-control"
+                id="message"
+                rows="3"
+                placeholder="Your message"
               ></textarea>
             </div>
-            <div>
-              <button class="btn btn-primary" type="submit">Send</button>
-            </div>
-          </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+          </form>
         </div>
-        <h3>Email</h3>
-        <p>
-          <a href="mailto:motshegwekabo@gmail.com">motshegwekabo@gmail.com </a>
-        </p>
-        <h3>Twitter</h3>
-        <p>
-          <a href="https//www.twitter.com/KaboMotshegwe" target="_blank">
-            @KaboMotshegwe
-          </a>
-        </p>
-        <h3>Instagram</h3>
-        <p>
-          <a href="https//www.instagram.com/motshegwe_kabo" target="_blank"
-            >@motshegwe_kabo</a
-          >
-        </p>
+
+        <div class="col-md-4">
+          <h3>Email</h3>
+          <p>
+            <a href="mailto:motshegwekabo@gmail.com">motshegwekabo@gmail.com</a>
+          </p>
+          <h3>Twitter</h3>
+          <p>
+            <a href="https://twitter.com/KaboMotshegwe" target="_blank"
+              >@KaboMotshegwe</a
+            >
+          </p>
+          <h3>Instagram</h3>
+          <p>
+            <a href="https://instagram.com/motshegwe_kabo" target="_blank"
+              >@motshegwe_kabo</a
+            >
+          </p>
+        </div>
       </div>
     </div>
+
     <footer class="container">
       <div
         class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
